@@ -4,8 +4,8 @@ from aiogram.dispatcher.filters import Text
 import re
 
 
-TOKEN = ''  # Телеграм-бот токен
-OWNER = ''  # ID чата администоратора бота (кто будет видеть запросы от пользователей)
+TOKEN = ''  # Токен Телеграм-бота
+OWNER = ''  # ID чата администратора бота (кто будет видеть запросы от пользователей)
 
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
